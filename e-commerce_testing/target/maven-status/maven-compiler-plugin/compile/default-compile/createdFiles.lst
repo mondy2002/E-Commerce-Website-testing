@@ -1,0 +1,6 @@
+Pages\MobilePage.class
+Pages\PageBase.class
+Pages\AdminPanelPage.class
+Pages\MyOrdersPage.class
+Pages\HomePage.class
+Pages\MyAccountPage.class

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="Tests.MyAccountTest">
+        <methods>
+          <include name="share_list_with_email"/>
+          <include name="teardown"/>
+          <include name="verify_that_order_is_placed"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Tests.MyAccountTest -->
+      <class name="Tests.AdminPanelTest">
+        <methods>
+          <include name="verify_that_excel_works"/>
+          <include name="verify_that_invoice_isSorted"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Tests.AdminPanelTest -->
+      <class name="Tests.MobilePageTest">
+        <methods>
+          <include name="verify_elements_limit"/>
+          <include name="verify_sonyPrices_arethe_same"/>
+          <include name="verify_that_tests_are_sorted"/>
+          <include name="teardown"/>
+          <include name="verify_2products_compare"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Tests.MobilePageTest -->
+      <class name="Tests.HomePageTest">
+        <methods>
+          <include name="home_advanced_searh"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Tests.HomePageTest -->
+      <class name="Tests.MyOrdersTest">
+        <methods>
+          <include name="verify_that_coupon_applied"/>
+          <include name="teardown"/>
+          <include name="verify_that_orderpdf_is_saved"/>
+          <include name="setup"/>
+          <include name="verify_that_order_isReplayed"/>
+        </methods>
+      </class> <!-- Tests.MyOrdersTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

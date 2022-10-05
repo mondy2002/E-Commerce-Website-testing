@@ -1,0 +1,6 @@
+Tests\TestBase.class
+Tests\MobilePageTest.class
+Tests\MyOrdersTest.class
+Tests\HomePageTest.class
+Tests\MyAccountTest.class
+Tests\AdminPanelTest.class
